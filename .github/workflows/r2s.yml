@@ -211,7 +211,7 @@ jobs:
         uses: actions/upload-artifact@master
         with:
           name: r2s_openwrt
-          path: ./openwrt/bin/targets/
+          path: ./artifact/
           #release_tag="R2S-Lean-$(date +%Y-%m-%d)-Minimal"
           #release_tag="R2S-Minimal-$(date +%Y-%m-%d)"
           #echo "##[set-output name=release_tag;]$release_tag"
